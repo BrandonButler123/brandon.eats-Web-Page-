@@ -1,0 +1,186 @@
+body{
+    background-color: white;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    line-height: 1.6em;
+    margin: 0;
+}
+
+
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+#main-header{
+    background-color: cadetblue;
+    color: white;
+    font-size: 18px;
+}
+
+#main-header a{
+    text-decoration: none;
+    color: white;
+}
+
+#navbar{
+    background-color: coral;
+    color: white;
+}
+
+#navbar ul{
+    padding: 0;
+    list-style: none;
+}
+
+#navbar li{
+    display: inline;
+}
+
+#navbar a{
+    color: white;
+    text-decoration: solid;
+    font-size: larger;
+    padding-right: 25px;
+}
+
+
+
+.social{
+    float: right;
+}
+
+#showcase{
+    background-image: url(../images/showcase3.jpg);
+    background-size: 100%;
+    background-position: 50% 1%;
+    min-height: 200px;
+}
+
+#main-footer{
+    background: cadetblue;
+    color: white;
+    text-align: center;
+    padding: 2px;
+    margin-top: 40px;
+}
+
+#instagram{
+    list-style-image: url(../images/ig.png);
+}
+
+#main {
+    float: left;
+    width: 70%;
+    padding: 0px 40px;
+    box-sizing: border-box;
+}
+
+#sidebar li{
+    float: right;
+    width: 30%;
+    box-sizing: border-box;
+    padding: 10px;
+    background: greenyellow;
+    list-style: square;
+}
+
+#sidebar a{
+    text-decoration: solid;
+}
+
+a:hover{
+    color: red;
+}
+
+.fa-instagram{
+    color: white;
+    font-size: 26px;
+}
+.fa-facebook{
+    color: white;
+    font-size: 26px;
+}
+.fa-twitter{
+    color: white;
+    font-size: 26px;
+}
+
+.fa-facebook:hover{
+    color: blue;
+}
+
+.fa-instagram:hover{
+    color: slategray;
+}
+
+.fa-twitter:hover{
+    color: dodgerblue;
+}
+
+#home:hover{
+    color:black;
+}
+
+#dishes:hover{
+    color: black;
+}
+
+#resources:hover{
+    color: black;
+}
+
+/* STYLING FOR RESOURCES PAGE STARTING BELOW THIS LINE */
+
+#showcase1{
+    background-image: url(../images/background.jpg);
+    background-size: 100%;
+    min-height: 1000px;
+    position: static;
+}
+
+#main-footer1{
+    background: cadetblue;
+    color: white;
+    text-align: center;
+    padding: 2px;
+    margin-top: 0;
+}
+
+#title1{
+    font-size: larger;
+    color: black;
+}
+
+#calculator{
+    padding-left: 10%;
+    box-sizing: border-box;
+}
+
+.container1{
+  background-color: aquamarine;
+  opacity: 0.8;
+  
+}
+
+.block{
+    float:left;
+    width: 25%;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+.tbsp{
+    padding-right: 5px;
+}
+.tsp{
+    padding-right: 17px;
+}
+.flounce{
+    padding-right: 0px;
+}
+.litre{
+    padding-right: 37px;
+}
